@@ -1,0 +1,28 @@
+[global_config]
+  borderless = True
+  extra_styling = False
+  inactive_color_offset = 0.6527777777777778
+[keybindings]
+  split_horiz = <Shift><Alt>w
+  split_vert = <Shift><Alt>e
+  close_term = <Shift><Alt>q
+  copy = <Primary><Alt>c
+  paste = <Primary><Alt>v
+  close_window = <Primary><Shift>q
+[profiles]
+  [[default]]
+    background_darkness = 0.7
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#f3f3f3"
+    show_titlebar = False
+    scrollbar_position = hidden
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
